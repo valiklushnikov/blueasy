@@ -1,0 +1,264 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    float: left;
+}
+
+.logo__text p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.logo__text span {
+    margin: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.logo__text span {
+    color: #4bcaff;
+}
+
+.nav {
+    float: right;
+}
+
+.nav__link a {
+    font-size: 0px;
+}
+
+.nav__link {
+    color: #ffffff;
+    margin-left: 28px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 12px 10px 12px;
+    border: 2px solid #404b52;
+}
+
+.nav__link:first-child {
+    margin-left: 10px;
+}
+
+.nav__link:hover {
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+}
+
+.clear {
+    clear: both;
+}
+
+.header__inner {
+    padding: 58px 0;
+}
+
+.header {
+    height: 150px;
+    background: url("../images/bg_nav.png") repeat-x;
+    opacity: 0.85;
+}
+
+.intro {
+    background: url("../images/bg_holder.png") no-repeat center top / cover;
+    height: 800px;
+    padding-top: 400px;
+}
+
+.intro__title {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    background: url("../images/highlight.png") no-repeat center;
+}
+
+.services {
+    height: 405px;
+    background-color: #4bcaff;
+}
+
+.cards {
+    padding-top: 80px;
+}
+
+.services__logo {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.services__card {
+    display: inline-block;
+    height: 216px;
+    width: 270px;
+    margin-right: 20px;
+}
+
+.services__card:last-child {
+    margin-right: 0px;
+}
+
+.services_icon {
+    padding-top: 33px;
+}
+
+.services__title {
+    margin: 20px 0px;
+}
+
+.services__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.services__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.white__underline {
+    width: 48px;
+    height: 2px;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.dark__underline {
+    width: 48px;
+    height: 2px;
+    background: #515f67;
+    margin-top: 10px;
+}
+
+.portfolio {
+    height: 844px;
+    background: #fff;
+}
+
+.portfolio__logo {
+    float: left;
+}
+
+.portfolio__nav {
+    float: right;
+}
+
+.portfolio__title {
+    color: #515f67;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.portfolio__link {
+    color: #515f67;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 8px 15px 8px 15px;
+}
+
+.portfolio__link:first-child {
+    margin-left: 0;
+}
+
+.portfolio__inner {
+    padding: 80px 0;
+}
+
+.portfolio__link:hover {
+    color: #4bcaff;
+    border: 2px solid #4bcaff;
+}
+
+.portfolio__card {
+    height: 270px;
+    width: 270px;
+    display: inline-block;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.portfolio__card:first-child {
+    margin-left: 0;
+}
+
+.portfolio__card span {
+    position: absolute;
+    top: 119px;
+    left: 119px;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+    visibility: hidden;
+}
+
+.portfolio__card:hover {
+    background: #3f484f;
+}
+
+.portfolio__card:hover span {
+    visibility: visible;
+}
+
+.portfolio_down__row .portfolio__card img {
+    opacity: 0.75;
+}
+
+
